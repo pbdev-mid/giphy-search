@@ -1,0 +1,20 @@
+input, i {
+    font-size: 10vh;
+}
+
+.input-group {
+    height: 18vh;
+}
+
+.input-group * {
+    border: 0 !important;
+}
+
+*:focus {
+    border-width: 0;
+    outline: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}

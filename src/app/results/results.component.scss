@@ -1,0 +1,12 @@
+:host {
+    display: grid;
+    grid-template-columns: repeat(3, calc(98vw/3));
+    grid-gap: 1vw;
+    min-height: 83vh;
+    justify-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
